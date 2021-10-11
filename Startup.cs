@@ -106,7 +106,7 @@ namespace DEHacker.Jwt
             app.UseSwagger();
             app.UseSwaggerUI(sw =>
             {
-                sw.SwaggerEndpoint("/swagger/v1/swagger.json", "DE Hackers API service");
+                sw.SwaggerEndpoint("/swagger/v1/swagger.json", "DE Hackers API service1");
                 sw.DefaultModelsExpandDepth(-1);
                 sw.DocExpansion(DocExpansion.None);
                 sw.RoutePrefix = string.Empty;
